@@ -15,14 +15,6 @@ body {
   border: 3px solid #a04129; /* Рамка при наведении на рисунок курсора мыши */
 }
 
-.personal-data-list {
-  list-style-type: none;
-}
-
-section {
-  border-bottom: 2px solid rgb(3, 54, 20);
-}
-
 ul {
   list-style-type: square;
 }
@@ -35,8 +27,45 @@ ul {
   width: 20px;
 }
 
-h2 {
-  border: 4px double rgb(54, 4, 4); /* Параметры границы */
-  background: rgb(224, 187, 106); /* Цвет фона */
-  padding: 10px; /* Поля вокруг текста */
+ul {
+  list-style-type: none;
+}
+
+.skills-list li {
+  display: inline;
+}
+
+.personal-date-list li {
+  margin-bottom: 7px;
+}
+
+.personal-date-contener {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.personal-date-text-element {
+  width: 80%;
+}
+
+.personal-date-img-element {
+  width: 20%;
+}
+
+.main-date-contener {
+  display: flex;
+}
+.left-flex-element {
+  width: 70%;
+  padding-right: 20px;
+}
+
+.right-flex-element {
+  width: 30%;
+}
+
+ul {
+  padding: 0;
+  margin-left: 0px;
 }
