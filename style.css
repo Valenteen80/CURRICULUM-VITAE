@@ -33,6 +33,10 @@ ul {
   display: inline;
 }
 
+.projects-list {
+  
+}
+
 .personal-date-contener {
   display: flex;
   flex-direction: row-reverse;
