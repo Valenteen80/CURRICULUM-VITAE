@@ -1,9 +1,10 @@
 (function () {
   const photo = document.querySelector(".may-photo");
   const text = document.querySelector(".text");
+  const body = document.querySelector("body");
   photo.addEventListener("click", () => {
-    text.insertAdjacentHTML(
-      "beforebegin",
+    body.insertAdjacentHTML(
+      "afterbegin",
       `<img
         class="may-photo-activ"
         src="Photo.jpg"
@@ -11,12 +12,14 @@
         title="foto Valiantsin Kurakevich"
       />`
     );
-    text.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+    body.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
     photo.style.display = "none";
+
     const mayPhotoActiv = document.querySelector(".may-photo-activ");
+
     mayPhotoActiv.addEventListener("click", () => {
       mayPhotoActiv.remove();
-      text.style.backgroundColor = "#deecac";
+      body.style.backgroundColor = "#e4eec0";
       photo.style.display = "";
     });
   });
