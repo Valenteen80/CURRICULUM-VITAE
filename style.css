@@ -9,7 +9,12 @@ body {
 }
 a {
   color: #200903;
+  transition: 0.3s linear;
   font-weight: bolder;
+}
+
+a:hover {
+  color: #ff4a1d;
 }
 
 .may-photo {
