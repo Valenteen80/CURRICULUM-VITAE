@@ -55,7 +55,7 @@ ul {
   width: 20%;
 }
 
-.may-photo-activ {
+.may-photo-active {
   width: 50%;
   border: 5px solid #c2710721;
   position: fixed;
@@ -63,7 +63,7 @@ ul {
   left: 25%;
 }
 
-.may-photo-activ:hover {
+.may-photo-active:hover {
   border: 5px solid #a04129;
   cursor: pointer;
 }

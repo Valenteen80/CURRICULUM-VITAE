@@ -6,7 +6,7 @@
     body.insertAdjacentHTML(
       "afterbegin",
       `<img
-        class="may-photo-activ"
+        class="may-photo-active"
         src="Photo.jpg"
         alt="foto Valiantsin Kurakevich"
         title="foto Valiantsin Kurakevich"
@@ -15,10 +15,10 @@
     body.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
     photo.style.display = "none";
 
-    const mayPhotoActiv = document.querySelector(".may-photo-activ");
+    const mayPhotoActive = document.querySelector(".may-photo-active");
 
-    mayPhotoActiv.addEventListener("click", () => {
-      mayPhotoActiv.remove();
+    mayPhotoActive.addEventListener("click", () => {
+      mayPhotoActive.remove();
       body.style.backgroundColor = "#e4eec0";
       photo.style.display = "";
     });
