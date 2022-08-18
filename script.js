@@ -7,7 +7,7 @@
       "afterbegin",
       `<img
         class="may-photo-active"
-        src="Photo.jpg"
+        src="photo_.jpg"
         alt="foto Valiantsin Kurakevich"
         title="foto Valiantsin Kurakevich"
       />`
