@@ -1,13 +1,12 @@
 (function () {
-  const photo = document.querySelector(".may-photo");
-  const text = document.querySelector(".text");
+  const photo = document.querySelector(".my-photo");
   const body = document.querySelector("body");
   photo.addEventListener("click", () => {
     body.insertAdjacentHTML(
       "afterbegin",
       `<img
-        class="may-photo-active"
-        src="photo_.jpg"
+        class="my-photo-active"
+        src="main-photo.jpg"
         alt="foto Valiantsin Kurakevich"
         title="foto Valiantsin Kurakevich"
       />`
@@ -15,10 +14,10 @@
     body.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
     photo.style.display = "none";
 
-    const mayPhotoActive = document.querySelector(".may-photo-active");
+    const myPhotoActive = document.querySelector(".my-photo-active");
 
-    mayPhotoActive.addEventListener("click", () => {
-      mayPhotoActive.remove();
+    myPhotoActive.addEventListener("click", () => {
+      myPhotoActive.remove();
       body.style.backgroundColor = "#e4eec0";
       photo.style.display = "";
     });
