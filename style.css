@@ -17,12 +17,12 @@ a:hover {
   color: #ff4a1d;
 }
 
-.my-photo {
+.may-photo {
   width: 200px;
   border: 3px solid #68441521;
 }
 
-.my-photo:hover {
+.may-photo:hover {
   border: 3px solid #a04129;
   cursor: pointer;
 }
@@ -55,7 +55,7 @@ ul {
   width: 20%;
 }
 
-.my-photo-active {
+.may-photo-active {
   width: 50%;
   border: 5px solid #c2710721;
   position: fixed;
@@ -63,7 +63,7 @@ ul {
   left: 25%;
 }
 
-.my-photo-active:hover {
+.may-photo-active:hover {
   border: 5px solid #a04129;
   cursor: pointer;
 }
