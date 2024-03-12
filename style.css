@@ -1,0 +1,119 @@
+body {
+  color: #200903;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1 rem;
+  background-color: #e4eec0;
+}
+a {
+  color: #200903;
+  transition: 0.3s linear;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #ff4a1d;
+}
+
+.may-photo {
+  width: 200px;
+  border: 3px solid #68441521;
+}
+
+.may-photo:hover {
+  border: 3px solid #a04129;
+  cursor: pointer;
+}
+
+.logo {
+  height: 18px;
+  width: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.skills-list li,
+.contact-data li {
+  display: inline;
+}
+
+.personal-date-contener {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.personal-date-text-element {
+  width: 80%;
+}
+
+.personal-date-img-element {
+  width: 20%;
+}
+
+.may-photo-active {
+  width: 50%;
+  border: 5px solid #c2710721;
+  position: fixed;
+  top: 20px;
+  left: 25%;
+}
+
+.may-photo-active:hover {
+  border: 5px solid #a04129;
+  cursor: pointer;
+}
+
+.main-date-contener {
+  display: flex;
+}
+
+.left-flex-element {
+  width: 60%;
+  padding-right: 20px;
+}
+
+.right-flex-element {
+  width: 40%;
+}
+
+ul {
+  padding: 0;
+  margin-left: 0px;
+}
+
+.data-list-contener {
+  display: flex;
+}
+
+@media (max-width: 992px) {
+  .personal-date-contener {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-date-contener {
+    flex-direction: column;
+  }
+  body {
+    font-size: 1.2rem;
+  }
+  .left-flex-element {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .right-flex-element {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact-data li {
+    display: table;
+  }
+}
